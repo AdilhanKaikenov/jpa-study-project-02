@@ -10,7 +10,7 @@
 <!--        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> --> <!-- EclipseLink Provider -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- Specify entity classes -->
-<!--        <class>...</class> -->
+        <class>com.epam.adilkhan.jpa.lesson04.entity.Book</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> <!-- Driver -->
             <!-- BD Mane -->
