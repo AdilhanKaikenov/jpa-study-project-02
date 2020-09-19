@@ -8,7 +8,12 @@ This class has the following requirements:
 * It cannot be final and cannot contain final fields / properties
 * Must contain at least one field (property) annotated with **@Id** - identifier
 
-~~~~
+```java
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.util.Date;
+
 @Entity
 public class Student {
 
@@ -20,4 +25,4 @@ public class Student {
 
     private Date birth;
 }
-~~~~
+```
