@@ -11,6 +11,7 @@
     <properties>
         <hibernate-entitymanager.version>5.4.21.Final</hibernate-entitymanager.version>
         <hibernate-jpa-2.1-api.version>1.0.2.Final</hibernate-jpa-2.1-api.version>
+        <postgresql.version>42.2.16</postgresql.version>
     </properties>
 
     <dependencies>
@@ -23,6 +24,11 @@
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.1-api</artifactId>
             <version>${hibernate-jpa-2.1-api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
         </dependency>
     </dependencies>
 
