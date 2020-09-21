@@ -24,4 +24,4 @@ JPA has many implementations:
  ...
 
 JPA provides a set of interfaces that allow us to work with the database.
-Thus, we get a universal code that can work with any persistence provider.
+Thus, we get a universal code that can work with any persistence provider. 
