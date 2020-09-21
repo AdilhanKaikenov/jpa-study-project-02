@@ -9,7 +9,7 @@ This class has the following requirements:
 * It cannot be final and cannot contain final fields / properties
 * Must contain at least one field (property) annotated with **@Id** - identifier
 Several fields can be marked with **@Id** annotation, then the data will be 
-stored using a composite primary key (`PRIMARY KEY(id, name)`).
+stored using a composite primary key (`PRIMARY KEY(id, name)`). 
 
 ```java
 import javax.persistence.Entity;
