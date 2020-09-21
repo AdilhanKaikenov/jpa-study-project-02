@@ -5,3 +5,4 @@ JPA Study Project (Theories and practices):
 4) Entity Manager example 
 5) Package scanning (@Entity classes)
 6) @Table and @SecondaryTable annotations
+7) Options to generate primary keys (@GeneratedValue annotation)
