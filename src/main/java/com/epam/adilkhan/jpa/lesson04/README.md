@@ -1,1 +1,1 @@
-**`com.epam.adilkhan.jpa.lesson04.JpaExample_01`**
+**`com.epam.adilkhan.jpa.lesson04.EntityManagerExample`**

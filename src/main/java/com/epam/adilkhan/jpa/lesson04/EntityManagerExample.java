@@ -14,7 +14,7 @@ import javax.persistence.Persistence;
  * - A code in which we get an EntityManager.
  *
  */
-public class JpaExample_01 {
+public class EntityManagerExample {
     public static void main(String[] args) {
 
         // (Factory pattern) EntityManagerFactory is a factory that provides an EntityManager instance for the given persistence unit
