@@ -28,3 +28,11 @@ JPA will use the Enum.name() value when storing an entity if we annotate the enu
 with **@Enumerated(EnumType.STRING)**.
 With @Enumerated(EnumType.STRING), we can safely add new enum values or change our enum's 
 order. **However, renaming an enum value will still break the database data.**
+
+**@Access**
+@Access is used to specify how JPA must access (get and set) mapped properties of the entity. 
+It has 2 modes: **AccessType.FIELD, AccessType.PROPERTY**;
+
+If access type is set to **FIELD**, the values will directly be read/set on the field, 
+bypassing getters and setters. If set to **PROPERTY**, the getters and setters are used 
+to access the field value.
