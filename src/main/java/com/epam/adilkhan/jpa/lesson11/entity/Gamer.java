@@ -55,6 +55,3 @@ public class Gamer {
     }
 }
 
-enum CharacterRace {
-    ELF, ORC, HUMAN
-}

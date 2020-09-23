@@ -1,4 +1,7 @@
-package com.epam.adilkhan.jpa.lesson11.entity;
+package com.epam.adilkhan.jpa.lesson11;
+
+import com.epam.adilkhan.jpa.lesson11.entity.CharacterRace;
+import com.epam.adilkhan.jpa.lesson11.entity.Gamer;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
