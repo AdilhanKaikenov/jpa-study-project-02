@@ -9,4 +9,4 @@ JPA Study Project (Theories and practices):
 8) Composite Primary Keys in JPA (@Embeddable and @EmbeddedId)
 9) JPA: @Basic vs @Column
 10) transient keyword and JPA @Transient annotation
-11) What is the use of the @Temporal annotation?
+11) What is the use of the @Temporal and @Enumerated annotations?

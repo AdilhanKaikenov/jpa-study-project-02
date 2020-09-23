@@ -17,4 +17,14 @@ in the entity to store timestamp to a database or just date or just time by chan
 @Temporal(TemporalType.TIMESTAMP)
 private Calendar calendar;
 ```
- 
+
+**@Enumerated**
+ If we put the **@Enumerated(EnumType.ORDINAL)** annotation on the enum field, JPA will use 
+ the Enum.ordinal() value when persisting a given entity in the database.
+A problem with this kind of mapping arises when we need to modify our enum. **If we add a 
+new value in the middle or rearrange the enum's order, we'll break the existing data model.**
+
+JPA will use the Enum.name() value when storing an entity if we annotate the enum field 
+with **@Enumerated(EnumType.STRING)**.
+With @Enumerated(EnumType.STRING), we can safely add new enum values or change our enum's 
+order. **However, renaming an enum value will still break the database data.**
