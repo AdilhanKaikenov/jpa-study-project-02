@@ -19,6 +19,9 @@ we have huge fields (for example, a large byte array of image data or a collecti
 we do not always use this field, and sometimes we may not use it at all. In general, when we 
 have large amounts of data and we rarely use them, then we can use **LAZY**.
 
+So, the optional @Basic annotation, can be used to configure the fetch type to LAZY and to 
+configure the mapping to forbid null values (for non primitive types) with the optional attribute. 
+
 **@Column** annotation
 
 It's used mainly in the DDL schema metadata generation. This means that if we let any JPA Provider 
