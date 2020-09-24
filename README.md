@@ -12,3 +12,4 @@ JPA Study Project (Theories and practices):
 11) What is the use of the @Temporal, @Enumerated and @Access annotations?
 12) @Embeddable, @Embedded and @AttributeOverride annotations
 13) How map Collection and Map?
+14) @OneToOne relationship and JPA Cascade Types
