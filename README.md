@@ -13,3 +13,4 @@ JPA Study Project (Theories and practices):
 12) @Embeddable, @Embedded and @AttributeOverride annotations
 13) How map Collection and Map?
 14) @OneToOne relationship and JPA Cascade Types
+15) @OneToMany and @ManyToOne relationship
