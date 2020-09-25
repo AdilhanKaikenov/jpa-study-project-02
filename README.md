@@ -14,3 +14,4 @@ JPA Study Project (Theories and practices):
 13) How map Collection and Map?
 14) @OneToOne relationship and JPA Cascade Types
 15) @OneToMany and @ManyToOne relationship
+16) @ManyToMany relationship
