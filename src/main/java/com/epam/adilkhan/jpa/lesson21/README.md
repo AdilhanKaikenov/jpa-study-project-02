@@ -1,15 +1,13 @@
 **JPA EntityManager's methods (flush, commit, refresh, merge, contains, detach, clear)**
 
-**Flush vs Commit**
-
+**Flush vs Commit**  
 `entityManager.flush()` - It saves the entity immediately to the database **within a transaction** to be used 
 further and **it can be rolled back**.
 
 `entityManager.getTransaction().commit()` - It marks the end of transaction and saves all the changes within the transaction 
 into the database and it can't be rolled back.
 
-**JPA EntityManager's refresh() method**
-
+**JPA EntityManager's refresh() method**  
 Refresh the state of the instance from the database, overwriting changes made to the entity, if any.
 
 ```java
