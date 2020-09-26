@@ -21,7 +21,7 @@ the entities 12 and 34. As you can see, the entity with ID = 12 is stored in eac
 transaction runs, the persistence context acts like a first-level cache storing the entities that can be managed by the
 EntityManager. Once the transaction ends, the persistence context ends and the entities are cleared.
 
-![persistence-context](https://raw.githubusercontent.com/AdilhanKaikenov/jpa-study-project-02/tree/master/src/main/java/com/epam/adilkhan/jpa/lesson19/etc/persistence-context.jpg)
+![persistence-context](https://raw.githubusercontent.com/AdilhanKaikenov/jpa-study-project-02/master/src/main/java/com/epam/adilkhan/jpa/lesson19/etc/persistence-context.jpg)
 
 The configuration for an entity manager is bound to the factory that created it. Whether application or container
 managed, the factory needs a persistence unit from which to create an entity manager. A persistence unit dictates
