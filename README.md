@@ -17,3 +17,4 @@ JPA Study Project (Theories and practices):
 16) @ManyToMany relationship
 17) JPA - @OrderBy and @OrderColumn Annotations
 18) JPA and Hibernate Inheritance strategies
+19) Persistence context
