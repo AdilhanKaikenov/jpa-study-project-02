@@ -20,3 +20,4 @@ JPA Study Project (Theories and practices):
 19) Persistence context
 20) Orphan Removal vs Cascade REMOVE. How to delete related entities?
 21) JPA EntityManager's methods (flush, commit, refresh, merge, contains, detach, clear)
+22) What is JPQL (Java Persistence Query language)?
