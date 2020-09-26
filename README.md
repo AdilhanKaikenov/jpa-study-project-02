@@ -15,3 +15,4 @@ JPA Study Project (Theories and practices):
 14) @OneToOne relationship and JPA Cascade Types
 15) @OneToMany and @ManyToOne relationship
 16) @ManyToMany relationship
+17) JPA - @OrderBy and @OrderColumn Annotations
