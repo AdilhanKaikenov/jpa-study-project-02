@@ -84,7 +84,7 @@ entityManager.persist(student);
 entityManager.getTransaction().commit();
 System.out.println(entityManager.contains(student)); // Out: true
 
-entityManager.clear(); // 
+entityManager.clear(); // clear the persistence context
 student.setName("New_Student_name");
 
 entityManager.getTransaction().begin();
