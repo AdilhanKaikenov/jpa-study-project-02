@@ -18,3 +18,4 @@ JPA Study Project (Theories and practices):
 17) JPA - @OrderBy and @OrderColumn Annotations
 18) JPA and Hibernate Inheritance strategies
 19) Persistence context
+20) Orphan Removal vs Cascade REMOVE. How to delete related entities?
