@@ -9,7 +9,22 @@
         <!-- Provider must be downloaded -->
 <!--        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> --> <!-- EclipseLink Provider -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+<!--        <class>com.epam.adilkhan.jpa.lesson18.mapped_superclass.entity.Publication</class>-->
+<!--        <class>com.epam.adilkhan.jpa.lesson18.mapped_superclass.entity.Book</class>-->
+<!--        <class>com.epam.adilkhan.jpa.lesson18.mapped_superclass.entity.BlogPost</class>   -->
+
+<!--        <class>com.epam.adilkhan.jpa.lesson18.single_table_inheritance.entity.Publication</class>-->
+<!--        <class>com.epam.adilkhan.jpa.lesson18.single_table_inheritance.entity.Book</class>-->
+<!--        <class>com.epam.adilkhan.jpa.lesson18.single_table_inheritance.entity.BlogPost</class>-->
+
+        <class>com.epam.adilkhan.jpa.lesson18.table_per_class_inheritance.entity.Publication</class>
+        <class>com.epam.adilkhan.jpa.lesson18.table_per_class_inheritance.entity.Book</class>
+        <class>com.epam.adilkhan.jpa.lesson18.table_per_class_inheritance.entity.BlogPost</class>
+
+<!--        <class>com.epam.adilkhan.jpa.lesson18.joined_table_inheritance.entity.Publication</class>-->
+<!--        <class>com.epam.adilkhan.jpa.lesson18.joined_table_inheritance.entity.Book</class>-->
+<!--        <class>com.epam.adilkhan.jpa.lesson18.joined_table_inheritance.entity.BlogPost</class>-->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> <!-- Driver -->
             <!-- BD Mane -->
