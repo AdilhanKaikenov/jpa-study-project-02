@@ -22,3 +22,4 @@ JPA Study Project (Theories and practices):
 21) JPA EntityManager's methods (flush, commit, refresh, merge, contains, detach, clear)
 22) What is JPQL (Java Persistence Query language)?
 23) JPA Named Query and Named Native Query
+24) About the First and Second level cache
