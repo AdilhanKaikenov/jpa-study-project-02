@@ -98,6 +98,7 @@ The problem is that **the second-level cache is accessible from multiple session
 streams of program can simultaneously work in different transactions with the same entity**. Therefore, 
 it is necessary to somehow provide them with the same representation of this object.
 
+For example, **in Hibernate**, there are four strategies for concurrent access to objects in the cache:
 - `translactional` - complete transaction separation. Every session and every transaction sees objects as 
 if only they were working with it sequentially, one transaction after another. The pay for this is 
 blockages and lost productivity.
