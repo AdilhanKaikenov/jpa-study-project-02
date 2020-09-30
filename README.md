@@ -24,3 +24,4 @@ JPA Study Project (Theories and practices):
 23) JPA Named Query and Named Native Query
 24) About the First and Second level cache
 25) A little about Optimistic locking and Pessimistic locking
+26) Entity Life Cycle (Callbacks and Listeners)
